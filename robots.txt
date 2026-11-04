@@ -1,0 +1,3 @@
+# Internal review preview - not for search engines.
+User-agent: *
+Disallow: /

@@ -1,0 +1,1 @@
+import{a as e,f as t,i as n,o as r}from"./motion-core.CUsH_Id0.js";document.querySelectorAll(`[data-checklist]`).forEach(i=>{let a=[...i.querySelectorAll(`.row`)],o=a.map(e=>e.querySelector(`path`));i.classList.add(`is-ticking`),e(i,()=>n(i,.7),e=>{r(o,e,.2,.5),a.forEach((n,r)=>n.classList.toggle(`on`,t(.2+r*.06,.5+r*.06,e)>.6))},{from:0})});
